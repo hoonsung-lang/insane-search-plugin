@@ -1,0 +1,17 @@
+{
+  "name": "insane-search-hoonsung",
+  "description": "hoonsung-lang's own hosted copy of fivetaku/insane-search (with a Windows/cp949 subprocess-encoding fix) so it can be used from any project, including claude.ai/code cloud sessions.",
+  "owner": {
+    "name": "hoonsung-lang",
+    "url": "https://github.com/hoonsung-lang"
+  },
+  "plugins": [
+    {
+      "name": "insane-search",
+      "description": "Public-content reader for AI agents — reaches public pages, official APIs, and feeds via a Phase 0->3 adaptive access chain (curl_cffi impersonation, mobile/URL transforms, headless-browser fallback). Forked from fivetaku/insane-search with a Windows console/subprocess UTF-8 encoding fix.",
+      "source": "./insane-search",
+      "category": "productivity",
+      "tags": ["web-access", "search", "webfetch", "bypass", "yt-dlp", "twitter", "reddit", "naver"]
+    }
+  ]
+}
